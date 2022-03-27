@@ -1,0 +1,1 @@
+<h1>Nicz Spring Boot App</h1>

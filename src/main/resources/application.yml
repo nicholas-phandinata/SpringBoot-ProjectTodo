@@ -1,0 +1,19 @@
+server:
+ port: 7979
+spring:
+ mvc:
+  view:
+   prefix: /WEB-INF/views/
+   suffix: .jsp
+ datasource:
+  url: jdbc:mysql://127.0.0.1:3306/db_springboot
+  username: root
+  password:
+  driverClassName: com.mysql.cj.jdbc.Driver
+ jpa:
+  show-sql: TRUE
+  hibernate:
+   ddl-auto: update
+ sql:
+  init:
+   mode: always
